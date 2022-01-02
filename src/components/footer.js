@@ -12,13 +12,6 @@ const Footer = () => {
           title="Language"
           className="f6 dib ph2 link mid-gray dim"
         >
-          SOURCE CODE
-        </a>
-        <a
-          href="/terms/"
-          title="Terms"
-          className="f6 dib ph2 link mid-gray dim"
-        >
           Terms of Use
         </a>
         <a
