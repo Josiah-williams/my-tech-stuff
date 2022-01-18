@@ -3,31 +3,31 @@ import Footer from "../components/footer";
 
 function Pricing() {
   return (
-    <div class="pa4">
-      <div class="overflow-auto">
-        <table class="f6 w-100 mw8 center" cellspacing="0">
+    <div className="pa4">
+      <div className="overflow-auto">
+        <table className="f6 w-100 mw8 center" cellSpacing="0">
           <thead>
-            <tr class="stripe-dark">
-              <th class="fw6 tl pa3 bg-white">Membership Package</th>
-              <th class="fw6 tl pa3 bg-white">Description</th>
-              <th class="fw6 tl pa3 bg-white">Price</th>
+            <tr className="stripe-dark">
+              <th className="fw6 tl pa3 bg-white">Membership Package</th>
+              <th className="fw6 tl pa3 bg-white">Description</th>
+              <th className="fw6 tl pa3 bg-white">Price</th>
             </tr>
           </thead>
-          <tbody class="lh-copy">
-            <tr class="stripe-dark">
-              <td class="pa3">Basic</td>
-              <td class="pa3">Able to Messege the Seller</td>
-              <td class="pa3">$1.00</td>
+          <tbody className="lh-copy">
+            <tr className="stripe-dark">
+              <td className="pa3">Basic</td>
+              <td className="pa3">Able to Messege the Seller</td>
+              <td className="pa3">$1.00</td>
             </tr>
-            <tr class="stripe-dark">
-              <td class="pa3">Premium</td>
-              <td class="pa3">User can create an account</td>
-              <td class="pa3">$2.00</td>
+            <tr className="stripe-dark">
+              <td className="pa3">Premium</td>
+              <td className="pa3">User can create an account</td>
+              <td className="pa3">$2.00</td>
             </tr>
-            <tr class="stripe-dark">
-              <td class="pa3">Ultimate</td>
-              <td class="pa3">User can Sell</td>
-              <td class="pa3">$3.00</td>
+            <tr className="stripe-dark">
+              <td className="pa3">Ultimate</td>
+              <td className="pa3">User can Sell</td>
+              <td className="pa3">$3.00</td>
             </tr>
           </tbody>
         </table>

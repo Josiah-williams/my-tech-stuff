@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 function Works() {
   return (
-    <article class="pa3 pa5-ns">
+    <article className="pa3 pa5-ns">
       <Link to="/">
         <img src={rent} alt="not" className="right" />
       </Link>
-      <h1 class="f3 f2-m f1-l">How It Works?</h1>
-      <p class="measure lh-copy">
+      <h1 className="f3 f2-m f1-l">How It Works?</h1>
+      <p className="measure lh-copy">
         This is a frequently asked question we get here at Rent Tech.
         Essentially how this works is you rent the product through our website
         and then are able to meet the person to pick up the product for the
@@ -18,7 +18,7 @@ function Works() {
         the product back after the certain amount of days that you rented the
         product.
       </p>
-      <p class="measure lh-copy">
+      <p className="measure lh-copy">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet

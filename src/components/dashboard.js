@@ -11,7 +11,6 @@ export default function Dashboard() {
     axios
       .get("https://use-my-tech-stuff-eu.herokuapp.com/api/equipments")
       .then(response => {
-        console.log(response.data);
         setEquip(response.data);
       })
       .catch(err => {
